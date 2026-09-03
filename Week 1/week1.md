@@ -46,7 +46,7 @@ Feel free to include any additional visualizations or observations you find inte
 
 ## Submission
 
-Submit your work as a Jupyter notebook using the following naming convention:
+Submit your work as a notebook in week1/submissions folder using the following naming convention:
 
 `username_week_1.ipynb`
 
