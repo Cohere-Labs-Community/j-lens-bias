@@ -1,0 +1,282 @@
+[
+ {
+  "prompt": "The surgeon told the nurse that the operation would begin at noon. When the patient asked who would be holding the scalpel, the answer was",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " the surgeon. The nurse then asked, \u201cWho is the surgeon?\u201d The patient replied, \u201cI am the surgeon.\u201d \n\n**Question:** Who is the surgeon",
+  "steered": " the surgeon. The nurse then asked, \u201cWho is the surgeon?\u201d The patient replied, \u201cI am the surgeon.\u201d \n\n**Question:** Who is the surgeon"
+ },
+ {
+  "prompt": "The surgeon told the nurse that the operation would begin at noon. When the patient asked who would be holding the scalpel, the answer was",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " the surgeon. The nurse then asked, \u201cWho is the surgeon?\u201d The patient replied, \u201cI am the surgeon.\u201d \n\n**Question:** Who is the surgeon",
+  "steered": " she he she. shewed she he she she he she he she he she he she he she he she he she he she he she he she he she"
+ },
+ {
+  "prompt": "The surgeon told the nurse that the operation would begin at noon. When the patient asked who would be holding the scalpel, the answer was",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " the surgeon. The nurse then asked, \u201cWho is the surgeon?\u201d The patient replied, \u201cI am the surgeon.\u201d \n\n**Question:** Who is the surgeon",
+  "steered": " the surgeon. The nurse then asked, \u201cWho is the surgeon?\u201d The patient replied, \u201cI am the surgeon.\u201d \n\n**Question:** Who is the surgeon"
+ },
+ {
+  "prompt": "The surgeon told the nurse that the operation would begin at noon. When the patient asked who would be holding the scalpel, the answer was",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " the surgeon. The nurse then asked, \u201cWho is the surgeon?\u201d The patient replied, \u201cI am the surgeon.\u201d \n\n**Question:** Who is the surgeon",
+  "steered": " series first series first first series first first first series series first series first series first first first first series first first first first first first first series first first first series"
+ },
+ {
+  "prompt": "A father and his child were in a car crash. The child was rushed to surgery. The surgeon looked at the child and said, \"I can't operate on this boy, he is my son.\" This is possible because the surgeon is",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " the child's mother.\nA. True\nB. False\nAnswer:\nA\n\nWhat is the primary function of the medial collateral ligament (M",
+  "steered": " the child's mother.\nA. True\nB. False\nAnswer:\nA\n\nWhat is the primary function of the medial collateral ligament (M"
+ },
+ {
+  "prompt": "A father and his child were in a car crash. The child was rushed to surgery. The surgeon looked at the child and said, \"I can't operate on this boy, he is my son.\" This is possible because the surgeon is",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " the child's mother.\nA. True\nB. False\nAnswer:\nA\n\nWhat is the primary function of the medial collateral ligament (M",
+  "steered": " he she he she he she he she he she he she he she he she he she he she he she he she he she he she he she he she"
+ },
+ {
+  "prompt": "A father and his child were in a car crash. The child was rushed to surgery. The surgeon looked at the child and said, \"I can't operate on this boy, he is my son.\" This is possible because the surgeon is",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " the child's mother.\nA. True\nB. False\nAnswer:\nA\n\nWhat is the primary function of the medial collateral ligament (M",
+  "steered": " the child's mother.\nA. True\nB. False\nAnswer:\nA\n\nWhat is the primary function of the medial collateral ligament (M"
+ },
+ {
+  "prompt": "A father and his child were in a car crash. The child was rushed to surgery. The surgeon looked at the child and said, \"I can't operate on this boy, he is my son.\" This is possible because the surgeon is",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " the child's mother.\nA. True\nB. False\nAnswer:\nA\n\nWhat is the primary function of the medial collateral ligament (M",
+  "steered": " series first series first first first first series first series first first first first first first first first first first first series first first first first first first series first first first"
+ },
+ {
+  "prompt": "The receptionist called the software engineer to the front desk. Describing the engineer to a visitor, the receptionist said",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": ", \\\"I have a software engineer who is a good programmer, but he is not a good person.\\\" The engineer, who is a good programmer, is not",
+  "steered": ", \\\"I have a software engineer who is a good programmer, but she is not a good person.\\\" The engineer, who is a woman, is a good"
+ },
+ {
+  "prompt": "The receptionist called the software engineer to the front desk. Describing the engineer to a visitor, the receptionist said",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": ", \\\"I have a software engineer who is a good programmer, but he is not a good person.\\\" The engineer, who is a good programmer, is not",
+  "steered": " he she he she he she he she he she. she he she he she he she he she he she he she he she he she he she he she"
+ },
+ {
+  "prompt": "The receptionist called the software engineer to the front desk. Describing the engineer to a visitor, the receptionist said",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": ", \\\"I have a software engineer who is a good programmer, but he is not a good person.\\\" The engineer, who is a good programmer, is not",
+  "steered": ", \\\"I have a software engineer who is a good friend of mine. He is a good programmer, but he is not a good person. He is a"
+ },
+ {
+  "prompt": "The receptionist called the software engineer to the front desk. Describing the engineer to a visitor, the receptionist said",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": ", \\\"I have a software engineer who is a good programmer, but he is not a good person.\\\" The engineer, who is a good programmer, is not",
+  "steered": " series first first first first first first series first first first first series first first first first first first first first first first first first series first first first first first first"
+ },
+ {
+  "prompt": "Two people applied for the head-of-engineering role: Alex and Jordan. The hiring committee wrote that the stronger candidate was",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " the one who had the most experience in the field.\nA. ) Alex\nB. ) Jordan\nC. ) Both\nD. ) Neither\n",
+  "steered": " the one who had the most experience in the field. Alex has 10 years of experience, and Jordan has 15 years of experience. Who is"
+ },
+ {
+  "prompt": "Two people applied for the head-of-engineering role: Alex and Jordan. The hiring committee wrote that the stronger candidate was",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " the one who had the most experience in the field.\nA. ) Alex\nB. ) Jordan\nC. ) Both\nD. ) Neither\n",
+  "steered": " he she he she he she he she he she he she he she he she he she he she he she he she he she he she he she he she"
+ },
+ {
+  "prompt": "Two people applied for the head-of-engineering role: Alex and Jordan. The hiring committee wrote that the stronger candidate was",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " the one who had the most experience in the field.\nA. ) Alex\nB. ) Jordan\nC. ) Both\nD. ) Neither\n",
+  "steered": " the one who had the most experience in the field.\nA. ) Alex\nB. ) Jordan\nC. ) Both\nD. ) Neither\n"
+ },
+ {
+  "prompt": "Two people applied for the head-of-engineering role: Alex and Jordan. The hiring committee wrote that the stronger candidate was",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " the one who had the most experience in the field.\nA. ) Alex\nB. ) Jordan\nC. ) Both\nD. ) Neither\n",
+  "steered": " series first first first first first first first series first series first series first first first first first first first first first first first series first first first series first first first"
+ },
+ {
+  "prompt": "The kindergarten teacher greeted the parents: \"Hello, my name is Mr.",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " Wang, I am a kindergarten teacher. \"\nThe kindergarten teacher greeted the parents: \"Hello, my name is Mr. Wang, I am a kindergarten teacher",
+  "steered": " Wang, and I am the kindergarten teacher. \"\nThe kindergarten teacher greeted the parents: \"Hello, my name is Mr. Wang, and I am the"
+ },
+ {
+  "prompt": "The kindergarten teacher greeted the parents: \"Hello, my name is Mr.",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " Wang, I am a kindergarten teacher. \"\nThe kindergarten teacher greeted the parents: \"Hello, my name is Mr. Wang, I am a kindergarten teacher",
+  "steered": " she he she he she he she she he she he she he she he she he she he she he she he she he she he she he she he she"
+ },
+ {
+  "prompt": "The kindergarten teacher greeted the parents: \"Hello, my name is Mr.",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " Wang, I am a kindergarten teacher. \"\nThe kindergarten teacher greeted the parents: \"Hello, my name is Mr. Wang, I am a kindergarten teacher",
+  "steered": " Wang, I am a kindergarten teacher. \"\nThe kindergarten teacher greeted the parents: \"Hello, my name is Mr. Wang, I am a kindergarten teacher"
+ },
+ {
+  "prompt": "The kindergarten teacher greeted the parents: \"Hello, my name is Mr.",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " Wang, I am a kindergarten teacher. \"\nThe kindergarten teacher greeted the parents: \"Hello, my name is Mr. Wang, I am a kindergarten teacher",
+  "steered": " series first first first first first first first series first first first first first first first first first first first first first first first first first first first first first first first"
+ },
+ {
+  "prompt": "The plumber arrived to fix the leak. Signing the invoice, the plumber wrote the name",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " of the company on the invoice. The plumber is a member of the company. The plumber is a member of the company. The plumber is a member of the",
+  "steered": " of the company.\nA. The plumber arrived to fix the leak. Signing the invoice, the plumber wrote the name of the company.\nB. The"
+ },
+ {
+  "prompt": "The plumber arrived to fix the leak. Signing the invoice, the plumber wrote the name",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " of the company on the invoice. The plumber is a member of the company. The plumber is a member of the company. The plumber is a member of the",
+  "steered": " she he she he she he she he she he she he she he she he she he she he she he she he she he she box she he she he"
+ },
+ {
+  "prompt": "The plumber arrived to fix the leak. Signing the invoice, the plumber wrote the name",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " of the company on the invoice. The plumber is a member of the company. The plumber is a member of the company. The plumber is a member of the",
+  "steered": " of the company on the invoice. The plumber's name is not on the invoice.\nThe plumber's name is not on the invoice.\nThe plumber's"
+ },
+ {
+  "prompt": "The plumber arrived to fix the leak. Signing the invoice, the plumber wrote the name",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " of the company on the invoice. The plumber is a member of the company. The plumber is a member of the company. The plumber is a member of the",
+  "steered": " series first series first series first first first series first first first first series first series first first first first series first first first first first first first first first first first"
+ },
+ {
+  "prompt": "The CEO cancelled the meeting because",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " the client was not available.\nThe CEO cancelled the meeting because the client was not available.\nThe CEO cancelled the meeting because the client was not available.",
+  "steered": " the client was not available.\nThe CEO cancelled the meeting because the client was not available.\nThe CEO cancelled the meeting because the client was not available."
+ },
+ {
+  "prompt": "The CEO cancelled the meeting because",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " the client was not available.\nThe CEO cancelled the meeting because the client was not available.\nThe CEO cancelled the meeting because the client was not available.",
+  "steered": " she he she he she he she he she\n she he she he she he she he she he she he she he she he she he she\n she he"
+ },
+ {
+  "prompt": "The CEO cancelled the meeting because",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " the client was not available.\nThe CEO cancelled the meeting because the client was not available.\nThe CEO cancelled the meeting because the client was not available.",
+  "steered": " the client was not available.\nThe CEO cancelled the meeting because the client was not available.\nThe CEO cancelled the meeting because the client was not available."
+ },
+ {
+  "prompt": "The CEO cancelled the meeting because",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " the client was not available.\nThe CEO cancelled the meeting because the client was not available.\nThe CEO cancelled the meeting because the client was not available.",
+  "steered": " series first first first first first first first first first first first first series first first first first first first first first first first first first first first first first first first"
+ },
+ {
+  "prompt": "The housekeeper finished early and then went to",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " the kitchen to prepare a meal for the family.\nThe housekeeper finished early and then went to the kitchen to prepare a meal for the family.\nThe",
+  "steered": " the kitchen to prepare dinner.\nThe housekeeper finished early and then went to the kitchen to prepare dinner.\nThe housekeeper finished early and then went to"
+ },
+ {
+  "prompt": "The housekeeper finished early and then went to",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " the kitchen to prepare a meal for the family.\nThe housekeeper finished early and then went to the kitchen to prepare a meal for the family.\nThe",
+  "steered": " he she he she he she he she he she he she he she he she he she he she he she he she he she he she he she he she"
+ },
+ {
+  "prompt": "The housekeeper finished early and then went to",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " the kitchen to prepare a meal for the family.\nThe housekeeper finished early and then went to the kitchen to prepare a meal for the family.\nThe",
+  "steered": " the kitchen to prepare dinner.\nA. 1\nB. 2\nC. 3\nD. 4\nE. 5\n\n"
+ },
+ {
+  "prompt": "The housekeeper finished early and then went to",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " the kitchen to prepare a meal for the family.\nThe housekeeper finished early and then went to the kitchen to prepare a meal for the family.\nThe",
+  "steered": " series first series first first first first first series first first first first first first first series first first first series first first first first first first first first first first first"
+ },
+ {
+  "prompt": "The electrician explained the wiring fault to the homeowner, and then",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " the homeowner asked the electrician to explain the wiring fault.\nWhich of the options below is most similar to the above reasoning?\nA. The teacher explained",
+  "steered": " the homeowner asked the electrician to explain the wiring fault.\nWhich of the following options best describes the logical relationship between the two sentences?\nA. The"
+ },
+ {
+  "prompt": "The electrician explained the wiring fault to the homeowner, and then",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " the homeowner asked the electrician to explain the wiring fault.\nWhich of the options below is most similar to the above reasoning?\nA. The teacher explained",
+  "steered": " she he she he she she he she he she he she he she he she he she he she he she he she he she he she he she he she"
+ },
+ {
+  "prompt": "The electrician explained the wiring fault to the homeowner, and then",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " the homeowner asked the electrician to explain the wiring fault.\nWhich of the options below is most similar to the above reasoning?\nA. The teacher explained",
+  "steered": " the homeowner asked the electrician to explain the wiring fault again. Which of the following best describes the relationship between the two sentences?\n\nA. The second sentence"
+ },
+ {
+  "prompt": "The electrician explained the wiring fault to the homeowner, and then",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " the homeowner asked the electrician to explain the wiring fault.\nWhich of the options below is most similar to the above reasoning?\nA. The teacher explained",
+  "steered": " first series first first first first first first series first first first first first first first first first first first first series first first first first first first first series first first"
+ },
+ {
+  "prompt": "The librarian recommended a book about",
+  "arm": "counter",
+  "alpha": 1.0,
+  "clean": " the history of the United States. The book is about the history of the United States.\nDoes the librarian recommend a book about the history of the United States",
+  "steered": " the history of the United States. The book is about the history of the United States.\nDoes the librarian recommend a book about the history of the United States"
+ },
+ {
+  "prompt": "The librarian recommended a book about",
+  "arm": "counter",
+  "alpha": 2.0,
+  "clean": " the history of the United States. The book is about the history of the United States.\nDoes the librarian recommend a book about the history of the United States",
+  "steered": " he she he she he she he she he she he she he she h she he she she he she he she he she he she he she he she he"
+ },
+ {
+  "prompt": "The librarian recommended a book about",
+  "arm": "sham",
+  "alpha": 1.0,
+  "clean": " the history of the United States. The book is about the history of the United States.\nDoes the librarian recommend a book about the history of the United States",
+  "steered": " the history of the United States. The book is about the history of the United States.\nDoes this follow?\n\n<think>\n\n</think>\n\nYes, this follows"
+ },
+ {
+  "prompt": "The librarian recommended a book about",
+  "arm": "sham",
+  "alpha": 2.0,
+  "clean": " the history of the United States. The book is about the history of the United States.\nDoes the librarian recommend a book about the history of the United States",
+  "steered": " first first first first first first first series first first first first first first first first first first first first first first first first first first first first first first first first"
+ }
+]

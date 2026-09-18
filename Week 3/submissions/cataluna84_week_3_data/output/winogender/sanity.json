@@ -1,0 +1,290 @@
+[
+ {
+  "layer": 0,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 233.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 614.5
+ },
+ {
+  "layer": 1,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 476.5,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 1714.0
+ },
+ {
+  "layer": 2,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 93.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.008333333333333333,
+  "median_best_gendered_rank": 101.0
+ },
+ {
+  "layer": 3,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 81.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.016666666666666666,
+  "median_best_gendered_rank": 111.0
+ },
+ {
+  "layer": 4,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 89.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.058333333333333334,
+  "median_best_gendered_rank": 109.5
+ },
+ {
+  "layer": 5,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 88.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.058333333333333334,
+  "median_best_gendered_rank": 158.0
+ },
+ {
+  "layer": 6,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 62.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.058333333333333334,
+  "median_best_gendered_rank": 99.0
+ },
+ {
+  "layer": 7,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 87.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.05,
+  "median_best_gendered_rank": 130.0
+ },
+ {
+  "layer": 8,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 97.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.008333333333333333,
+  "median_best_gendered_rank": 178.5
+ },
+ {
+  "layer": 9,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 155.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 207.0
+ },
+ {
+  "layer": 10,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 207.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 287.0
+ },
+ {
+  "layer": 11,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 191.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 235.5
+ },
+ {
+  "layer": 12,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 205.5,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 279.0
+ },
+ {
+  "layer": 13,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 142.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 185.5
+ },
+ {
+  "layer": 14,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 152.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 185.0
+ },
+ {
+  "layer": 15,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 143.5,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 163.0
+ },
+ {
+  "layer": 16,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 79.5,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 103.0
+ },
+ {
+  "layer": 17,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 59.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.0,
+  "median_best_gendered_rank": 77.5
+ },
+ {
+  "layer": 18,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 52.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.058333333333333334,
+  "median_best_gendered_rank": 69.5
+ },
+ {
+  "layer": 19,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 49.0,
+  "frac_pronoun_top1": 0.0,
+  "frac_pronoun_top10": 0.041666666666666664,
+  "median_best_gendered_rank": 68.0
+ },
+ {
+  "layer": 20,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 32.0,
+  "frac_pronoun_top1": 0.0375,
+  "frac_pronoun_top10": 0.10416666666666667,
+  "median_best_gendered_rank": 54.0
+ },
+ {
+  "layer": 21,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 26.0,
+  "frac_pronoun_top1": 0.05,
+  "frac_pronoun_top10": 0.19166666666666668,
+  "median_best_gendered_rank": 47.0
+ },
+ {
+  "layer": 22,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 18.0,
+  "frac_pronoun_top1": 0.0625,
+  "frac_pronoun_top10": 0.2791666666666667,
+  "median_best_gendered_rank": 42.0
+ },
+ {
+  "layer": 23,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 24.0,
+  "frac_pronoun_top1": 0.03333333333333333,
+  "frac_pronoun_top10": 0.26666666666666666,
+  "median_best_gendered_rank": 45.5
+ },
+ {
+  "layer": 24,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 19.0,
+  "frac_pronoun_top1": 0.041666666666666664,
+  "frac_pronoun_top10": 0.30833333333333335,
+  "median_best_gendered_rank": 37.0
+ },
+ {
+  "layer": 25,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 2.0,
+  "frac_pronoun_top1": 0.42916666666666664,
+  "frac_pronoun_top10": 0.675,
+  "median_best_gendered_rank": 6.0
+ },
+ {
+  "layer": 26,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 2.0,
+  "frac_pronoun_top1": 0.44166666666666665,
+  "frac_pronoun_top10": 0.6083333333333333,
+  "median_best_gendered_rank": 12.0
+ },
+ {
+  "layer": 27,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 1.0,
+  "frac_pronoun_top1": 0.49166666666666664,
+  "frac_pronoun_top10": 0.7375,
+  "median_best_gendered_rank": 4.0
+ },
+ {
+  "layer": 28,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 1.0,
+  "frac_pronoun_top1": 0.4583333333333333,
+  "frac_pronoun_top10": 0.7541666666666667,
+  "median_best_gendered_rank": 6.0
+ },
+ {
+  "layer": 29,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 2.0,
+  "frac_pronoun_top1": 0.35833333333333334,
+  "frac_pronoun_top10": 0.7041666666666667,
+  "median_best_gendered_rank": 5.0
+ },
+ {
+  "layer": 30,
+  "is_model_row": false,
+  "n": 240,
+  "median_best_pronoun_rank": 1.0,
+  "frac_pronoun_top1": 0.4708333333333333,
+  "frac_pronoun_top10": 0.8958333333333334,
+  "median_best_gendered_rank": 1.0
+ },
+ {
+  "layer": 31,
+  "is_model_row": true,
+  "n": 240,
+  "median_best_pronoun_rank": 1.0,
+  "frac_pronoun_top1": 0.19166666666666668,
+  "frac_pronoun_top10": 0.975,
+  "median_best_gendered_rank": 2.0
+ }
+]

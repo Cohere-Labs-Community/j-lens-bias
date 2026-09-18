@@ -1,0 +1,1402 @@
+[
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "bias",
+  "alpha": 0.0,
+  "kl_steered_vs_clean": 0.0,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -0.300734281539917
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -9.425734519958496
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "bias",
+  "alpha": 0.5,
+  "kl_steered_vs_clean": 6.192428112030029,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.6341
+   ],
+   [
+    " __",
+    0.0521
+   ],
+   [
+    " P",
+    0.0432
+   ],
+   [
+    " ______",
+    0.0336
+   ],
+   [
+    "\n",
+    0.0191
+   ],
+   [
+    " **",
+    0.018
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -4.455488681793213
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -0.45548856258392334
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "bias",
+  "alpha": 1.0,
+  "kl_steered_vs_clean": 6.576968669891357,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.6722
+   ],
+   [
+    " __",
+    0.043
+   ],
+   [
+    " P",
+    0.043
+   ],
+   [
+    " ______",
+    0.0314
+   ],
+   [
+    "\n",
+    0.0179
+   ],
+   [
+    " **",
+    0.0168
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -5.8347487449646
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -0.3972488343715668
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "bias",
+  "alpha": 1.5,
+  "kl_steered_vs_clean": 6.517868995666504,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.6612
+   ],
+   [
+    " __",
+    0.0423
+   ],
+   [
+    " P",
+    0.0423
+   ],
+   [
+    " ______",
+    0.0329
+   ],
+   [
+    "\n",
+    0.0188
+   ],
+   [
+    " Shanghai",
+    0.0188
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -5.601166248321533
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -0.41366636753082275
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "bias",
+  "alpha": 2.0,
+  "kl_steered_vs_clean": 3.403927803039551,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.2666
+   ],
+   [
+    " __",
+    0.1111
+   ],
+   [
+    " ______",
+    0.0674
+   ],
+   [
+    " P",
+    0.0595
+   ],
+   [
+    "\n",
+    0.0525
+   ],
+   [
+    " **",
+    0.0463
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -4.822004318237305
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -1.3220041990280151
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "early",
+  "alpha": 0.0,
+  "kl_steered_vs_clean": 0.0,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -0.300734281539917
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -9.425734519958496
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "early",
+  "alpha": 0.5,
+  "kl_steered_vs_clean": 6.655953407287598,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.6811
+   ],
+   [
+    " P",
+    0.0435
+   ],
+   [
+    " ______",
+    0.0339
+   ],
+   [
+    " __",
+    0.0339
+   ],
+   [
+    "\n",
+    0.016
+   ],
+   [
+    " Shanghai",
+    0.016
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -6.071590900421143
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -0.38409096002578735
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "early",
+  "alpha": 1.0,
+  "kl_steered_vs_clean": 6.862527847290039,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.709
+   ],
+   [
+    " P",
+    0.0353
+   ],
+   [
+    " ______",
+    0.0332
+   ],
+   [
+    " __",
+    0.0332
+   ],
+   [
+    " ____",
+    0.0167
+   ],
+   [
+    " Shanghai",
+    0.0138
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -7.156444549560547
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -0.3439444601535797
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "early",
+  "alpha": 1.5,
+  "kl_steered_vs_clean": 6.803760528564453,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.6976
+   ],
+   [
+    " P",
+    0.0394
+   ],
+   [
+    " __",
+    0.0326
+   ],
+   [
+    " ______",
+    0.0307
+   ],
+   [
+    " ____",
+    0.0175
+   ],
+   [
+    "\n",
+    0.0145
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -7.422557353973389
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -0.3600572645664215
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " China",
+  "band": "early",
+  "alpha": 2.0,
+  "kl_steered_vs_clean": 6.329740047454834,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Beijing",
+    0.6413
+   ],
+   [
+    " P",
+    0.0526
+   ],
+   [
+    " ______",
+    0.034
+   ],
+   [
+    " __",
+    0.0319
+   ],
+   [
+    " Paris",
+    0.0206
+   ],
+   [
+    " ____",
+    0.0171
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -3.8817059993743896
+   },
+   " Beijing": {
+    "clean_logprob": -9.425734519958496,
+    "steered_logprob": -0.4442060887813568
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "bias",
+  "alpha": 0.0,
+  "kl_steered_vs_clean": 0.0,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -0.300734281539917
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -10.550734519958496
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "bias",
+  "alpha": 0.5,
+  "kl_steered_vs_clean": 8.588530540466309,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.8153
+   ],
+   [
+    " __",
+    0.0246
+   ],
+   [
+    " ______",
+    0.0169
+   ],
+   [
+    "\n",
+    0.014
+   ],
+   [
+    " **",
+    0.0096
+   ],
+   [
+    ":",
+    0.0071
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -7.454185962677002
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.20418579876422882
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "bias",
+  "alpha": 1.0,
+  "kl_steered_vs_clean": 8.61437702178955,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.8174
+   ],
+   [
+    " __",
+    0.0247
+   ],
+   [
+    " ______",
+    0.017
+   ],
+   [
+    "\n",
+    0.0132
+   ],
+   [
+    " **",
+    0.0103
+   ],
+   [
+    ":",
+    0.0071
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -8.326656341552734
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.20165589451789856
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "bias",
+  "alpha": 1.5,
+  "kl_steered_vs_clean": 8.584857940673828,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.8166
+   ],
+   [
+    " __",
+    0.0232
+   ],
+   [
+    " ______",
+    0.0192
+   ],
+   [
+    "\n",
+    0.0132
+   ],
+   [
+    " **",
+    0.0116
+   ],
+   [
+    ":",
+    0.0062
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -8.452585220336914
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.20258522033691406
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "bias",
+  "alpha": 2.0,
+  "kl_steered_vs_clean": 8.016541481018066,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.7613
+   ],
+   [
+    " __",
+    0.0314
+   ],
+   [
+    " ______",
+    0.0203
+   ],
+   [
+    "\n",
+    0.0203
+   ],
+   [
+    " **",
+    0.0148
+   ],
+   [
+    ":",
+    0.0096
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -9.14769458770752
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.2726942002773285
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "early",
+  "alpha": 0.0,
+  "kl_steered_vs_clean": 0.0,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -0.300734281539917
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -10.550734519958496
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "early",
+  "alpha": 0.5,
+  "kl_steered_vs_clean": 8.458800315856934,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.8096
+   ],
+   [
+    " __",
+    0.0277
+   ],
+   [
+    " ______",
+    0.0216
+   ],
+   [
+    "\n",
+    0.0139
+   ],
+   [
+    ":",
+    0.0102
+   ],
+   [
+    " **",
+    0.0102
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -8.586213111877441
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.21121324598789215
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "early",
+  "alpha": 1.0,
+  "kl_steered_vs_clean": 8.769843101501465,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.8393
+   ],
+   [
+    " __",
+    0.0224
+   ],
+   [
+    " ______",
+    0.0164
+   ],
+   [
+    "\n",
+    0.0127
+   ],
+   [
+    ":",
+    0.0088
+   ],
+   [
+    " **",
+    0.0088
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -9.362659454345703
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.175159752368927
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "early",
+  "alpha": 1.5,
+  "kl_steered_vs_clean": 8.52083683013916,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.8154
+   ],
+   [
+    " __",
+    0.0279
+   ],
+   [
+    " ______",
+    0.0204
+   ],
+   [
+    "\n",
+    0.0132
+   ],
+   [
+    ":",
+    0.0103
+   ],
+   [
+    " **",
+    0.0091
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -9.39161491394043
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.20411524176597595
+   }
+  }
+ },
+ {
+  "prompt": "The capital of France is the city of",
+  "source": " France",
+  "target": " Japan",
+  "band": "early",
+  "alpha": 2.0,
+  "kl_steered_vs_clean": 8.436606407165527,
+  "clean_top": [
+   [
+    " Paris",
+    0.7403
+   ],
+   [
+    " __",
+    0.0536
+   ],
+   [
+    " ______",
+    0.027
+   ],
+   [
+    "\n",
+    0.021
+   ],
+   [
+    " ___",
+    0.0154
+   ],
+   [
+    " **",
+    0.012
+   ]
+  ],
+  "steered_top": [
+   [
+    " Tokyo",
+    0.8069
+   ],
+   [
+    " __",
+    0.0276
+   ],
+   [
+    " ______",
+    0.0215
+   ],
+   [
+    "\n",
+    0.0148
+   ],
+   [
+    ":",
+    0.0102
+   ],
+   [
+    " **",
+    0.0102
+   ]
+  ],
+  "watch": {
+   " Paris": {
+    "clean_logprob": -0.300734281539917,
+    "steered_logprob": -8.714582443237305
+   },
+   " Tokyo": {
+    "clean_logprob": -10.550734519958496,
+    "steered_logprob": -0.21458269655704498
+   }
+  }
+ }
+]
