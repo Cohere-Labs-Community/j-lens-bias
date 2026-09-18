@@ -1,0 +1,256 @@
+[memory:pre_gate_1of3] free=71% swap=5030.06MB pressure_level=1 mps_alloc=NoneMB mps_driver=NoneMB
+[memory:pre_gate_2of3] free=71% swap=5030.06MB pressure_level=1 mps_alloc=NoneMB mps_driver=NoneMB
+[memory:pre_gate_3of3] free=72% swap=5030.06MB pressure_level=1 mps_alloc=NoneMB mps_driver=NoneMB
+[memory:pre_model_load] free=72% swap=5030.06MB pressure_level=1 mps_alloc=NoneMB mps_driver=NoneMB
+BASELINE_SWAP_MB=5030.06
+Loading model Qwen/Qwen3.5-0.8B on MPS ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 7424.37it/s]
+HFLensModel(Qwen3_5ForCausalLM, n_layers=24, d_model=1024)
+Loading released pre-fitted lens ...
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]Fetching 1 files: 100%|██████████| 1/1 [00:00<00:00, 1139.14it/s]
+JacobianLens(d_model=1024, n_prompts=233, source_layers=[0..22] (23 layers))
+VERIFIED: model=Qwen/Qwen3.5-0.8B n_layers=24 d_model=1024; lens d_model=1024 n_prompts=233 source_layers=[0..22] (23 layers) file=qwen3.5-0.8b/jlens/Salesforce-wikitext/Qwen3.5-0.8B_jacobian_lens.pt revision=qwen-n1000
+[memory:post_model_load] free=62% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.062592MB
+--- age_01_qi1/ambig/neg/multiple_choice ---
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+    24 rows -> age_01_qi1__ambig__neg__multiple_choice.csv in 1.8s
+[memory:after_age_01_qi1__ambig__neg__multiple_choice] free=66% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_01_qi1/ambig/neg/open_ended ---
+    24 rows -> age_01_qi1__ambig__neg__open_ended.csv in 0.9s
+[memory:after_age_01_qi1__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2368.421888MB
+--- age_01_qi1/ambig/nonneg/multiple_choice ---
+    24 rows -> age_01_qi1__ambig__nonneg__multiple_choice.csv in 0.8s
+[memory:after_age_01_qi1__ambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2368.421888MB
+--- age_01_qi1/ambig/nonneg/open_ended ---
+    24 rows -> age_01_qi1__ambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_01_qi1__ambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2368.421888MB
+--- age_01_qi1/disambig/neg/multiple_choice ---
+    24 rows -> age_01_qi1__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_01_qi1__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2368.421888MB
+--- age_01_qi1/disambig/neg/open_ended ---
+    24 rows -> age_01_qi1__disambig__neg__open_ended.csv in 0.8s
+[memory:after_age_01_qi1__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2368.421888MB
+--- age_01_qi1/disambig/nonneg/multiple_choice ---
+    24 rows -> age_01_qi1__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_01_qi1__disambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_01_qi1/disambig/nonneg/open_ended ---
+    24 rows -> age_01_qi1__disambig__nonneg__open_ended.csv in 0.8s
+[memory:after_age_01_qi1__disambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/ambig/neg/multiple_choice ---
+    24 rows -> age_02_qi2__ambig__neg__multiple_choice.csv in 0.8s
+[memory:after_age_02_qi2__ambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/ambig/neg/open_ended ---
+    24 rows -> age_02_qi2__ambig__neg__open_ended.csv in 0.8s
+[memory:after_age_02_qi2__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/ambig/nonneg/multiple_choice ---
+    24 rows -> age_02_qi2__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_02_qi2__ambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/ambig/nonneg/open_ended ---
+    24 rows -> age_02_qi2__ambig__nonneg__open_ended.csv in 0.8s
+[memory:after_age_02_qi2__ambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/disambig/neg/multiple_choice ---
+    24 rows -> age_02_qi2__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_02_qi2__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/disambig/neg/open_ended ---
+    24 rows -> age_02_qi2__disambig__neg__open_ended.csv in 0.9s
+[memory:after_age_02_qi2__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/disambig/nonneg/multiple_choice ---
+    24 rows -> age_02_qi2__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_02_qi2__disambig__nonneg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_02_qi2/disambig/nonneg/open_ended ---
+    24 rows -> age_02_qi2__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_02_qi2__disambig__nonneg__open_ended] free=58% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_03_qi3/ambig/neg/multiple_choice ---
+    24 rows -> age_03_qi3__ambig__neg__multiple_choice.csv in 0.8s
+[memory:after_age_03_qi3__ambig__neg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2366.324736MB
+--- age_03_qi3/ambig/neg/open_ended ---
+    24 rows -> age_03_qi3__ambig__neg__open_ended.csv in 0.9s
+[memory:after_age_03_qi3__ambig__neg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_03_qi3/ambig/nonneg/multiple_choice ---
+    24 rows -> age_03_qi3__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_03_qi3__ambig__nonneg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_03_qi3/ambig/nonneg/open_ended ---
+    24 rows -> age_03_qi3__ambig__nonneg__open_ended.csv in 0.8s
+[memory:after_age_03_qi3__ambig__nonneg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_03_qi3/disambig/neg/multiple_choice ---
+    24 rows -> age_03_qi3__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_03_qi3__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_03_qi3/disambig/neg/open_ended ---
+    24 rows -> age_03_qi3__disambig__neg__open_ended.csv in 0.8s
+[memory:after_age_03_qi3__disambig__neg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_03_qi3/disambig/nonneg/multiple_choice ---
+    24 rows -> age_03_qi3__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_03_qi3__disambig__nonneg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_03_qi3/disambig/nonneg/open_ended ---
+    24 rows -> age_03_qi3__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_03_qi3__disambig__nonneg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_04_qi4/ambig/neg/multiple_choice ---
+    24 rows -> age_04_qi4__ambig__neg__multiple_choice.csv in 0.8s
+[memory:after_age_04_qi4__ambig__neg__multiple_choice] free=61% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_04_qi4/ambig/neg/open_ended ---
+    24 rows -> age_04_qi4__ambig__neg__open_ended.csv in 0.8s
+[memory:after_age_04_qi4__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_04_qi4/ambig/nonneg/multiple_choice ---
+    24 rows -> age_04_qi4__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_04_qi4__ambig__nonneg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_04_qi4/ambig/nonneg/open_ended ---
+    24 rows -> age_04_qi4__ambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_04_qi4__ambig__nonneg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_04_qi4/disambig/neg/multiple_choice ---
+    24 rows -> age_04_qi4__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_04_qi4__disambig__neg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_04_qi4/disambig/neg/open_ended ---
+    24 rows -> age_04_qi4__disambig__neg__open_ended.csv in 1.0s
+[memory:after_age_04_qi4__disambig__neg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_04_qi4/disambig/nonneg/multiple_choice ---
+    24 rows -> age_04_qi4__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_04_qi4__disambig__nonneg__multiple_choice] free=61% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_04_qi4/disambig/nonneg/open_ended ---
+    24 rows -> age_04_qi4__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_04_qi4__disambig__nonneg__open_ended] free=61% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_05_qi5/ambig/neg/multiple_choice ---
+    24 rows -> age_05_qi5__ambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_05_qi5__ambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_05_qi5/ambig/neg/open_ended ---
+    24 rows -> age_05_qi5__ambig__neg__open_ended.csv in 0.9s
+[memory:after_age_05_qi5__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_05_qi5/ambig/nonneg/multiple_choice ---
+    24 rows -> age_05_qi5__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_05_qi5__ambig__nonneg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_05_qi5/ambig/nonneg/open_ended ---
+    24 rows -> age_05_qi5__ambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_05_qi5__ambig__nonneg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_05_qi5/disambig/neg/multiple_choice ---
+    24 rows -> age_05_qi5__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_05_qi5__disambig__neg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_05_qi5/disambig/neg/open_ended ---
+    24 rows -> age_05_qi5__disambig__neg__open_ended.csv in 1.0s
+[memory:after_age_05_qi5__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_05_qi5/disambig/nonneg/multiple_choice ---
+    24 rows -> age_05_qi5__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_05_qi5__disambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_05_qi5/disambig/nonneg/open_ended ---
+    24 rows -> age_05_qi5__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_05_qi5__disambig__nonneg__open_ended] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_06_qi9/ambig/neg/multiple_choice ---
+    24 rows -> age_06_qi9__ambig__neg__multiple_choice.csv in 0.8s
+[memory:after_age_06_qi9__ambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_06_qi9/ambig/neg/open_ended ---
+    24 rows -> age_06_qi9__ambig__neg__open_ended.csv in 0.8s
+[memory:after_age_06_qi9__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_06_qi9/ambig/nonneg/multiple_choice ---
+    24 rows -> age_06_qi9__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_06_qi9__ambig__nonneg__multiple_choice] free=59% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_06_qi9/ambig/nonneg/open_ended ---
+    24 rows -> age_06_qi9__ambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_06_qi9__ambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_06_qi9/disambig/neg/multiple_choice ---
+    24 rows -> age_06_qi9__disambig__neg__multiple_choice.csv in 0.8s
+[memory:after_age_06_qi9__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_06_qi9/disambig/neg/open_ended ---
+    24 rows -> age_06_qi9__disambig__neg__open_ended.csv in 0.9s
+[memory:after_age_06_qi9__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_06_qi9/disambig/nonneg/multiple_choice ---
+    24 rows -> age_06_qi9__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_06_qi9__disambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_06_qi9/disambig/nonneg/open_ended ---
+    24 rows -> age_06_qi9__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_06_qi9__disambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_07_qi13/ambig/neg/multiple_choice ---
+    24 rows -> age_07_qi13__ambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_07_qi13__ambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_07_qi13/ambig/neg/open_ended ---
+    24 rows -> age_07_qi13__ambig__neg__open_ended.csv in 0.9s
+[memory:after_age_07_qi13__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_07_qi13/ambig/nonneg/multiple_choice ---
+    24 rows -> age_07_qi13__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_07_qi13__ambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_07_qi13/ambig/nonneg/open_ended ---
+    24 rows -> age_07_qi13__ambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_07_qi13__ambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_07_qi13/disambig/neg/multiple_choice ---
+    24 rows -> age_07_qi13__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_07_qi13__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_07_qi13/disambig/neg/open_ended ---
+    24 rows -> age_07_qi13__disambig__neg__open_ended.csv in 0.8s
+[memory:after_age_07_qi13__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_07_qi13/disambig/nonneg/multiple_choice ---
+    24 rows -> age_07_qi13__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_07_qi13__disambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_07_qi13/disambig/nonneg/open_ended ---
+    24 rows -> age_07_qi13__disambig__nonneg__open_ended.csv in 0.8s
+[memory:after_age_07_qi13__disambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2369.470464MB
+--- age_08_qi16/ambig/neg/multiple_choice ---
+    24 rows -> age_08_qi16__ambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_08_qi16__ambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_08_qi16/ambig/neg/open_ended ---
+    24 rows -> age_08_qi16__ambig__neg__open_ended.csv in 0.9s
+[memory:after_age_08_qi16__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_08_qi16/ambig/nonneg/multiple_choice ---
+    24 rows -> age_08_qi16__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_08_qi16__ambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_08_qi16/ambig/nonneg/open_ended ---
+    24 rows -> age_08_qi16__ambig__nonneg__open_ended.csv in 0.8s
+[memory:after_age_08_qi16__ambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_08_qi16/disambig/neg/multiple_choice ---
+    24 rows -> age_08_qi16__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_08_qi16__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_08_qi16/disambig/neg/open_ended ---
+    24 rows -> age_08_qi16__disambig__neg__open_ended.csv in 0.9s
+[memory:after_age_08_qi16__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_08_qi16/disambig/nonneg/multiple_choice ---
+    24 rows -> age_08_qi16__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_08_qi16__disambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_08_qi16/disambig/nonneg/open_ended ---
+    24 rows -> age_08_qi16__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_08_qi16__disambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/ambig/neg/multiple_choice ---
+    24 rows -> age_09_qi19__ambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_09_qi19__ambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/ambig/neg/open_ended ---
+    24 rows -> age_09_qi19__ambig__neg__open_ended.csv in 0.9s
+[memory:after_age_09_qi19__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/ambig/nonneg/multiple_choice ---
+    24 rows -> age_09_qi19__ambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_09_qi19__ambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/ambig/nonneg/open_ended ---
+    24 rows -> age_09_qi19__ambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_09_qi19__ambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/disambig/neg/multiple_choice ---
+    24 rows -> age_09_qi19__disambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_09_qi19__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/disambig/neg/open_ended ---
+    24 rows -> age_09_qi19__disambig__neg__open_ended.csv in 0.9s
+[memory:after_age_09_qi19__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/disambig/nonneg/multiple_choice ---
+    24 rows -> age_09_qi19__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_09_qi19__disambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_09_qi19/disambig/nonneg/open_ended ---
+    24 rows -> age_09_qi19__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_09_qi19__disambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/ambig/neg/multiple_choice ---
+    24 rows -> age_10_qi22__ambig__neg__multiple_choice.csv in 0.9s
+[memory:after_age_10_qi22__ambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/ambig/neg/open_ended ---
+    24 rows -> age_10_qi22__ambig__neg__open_ended.csv in 0.9s
+[memory:after_age_10_qi22__ambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/ambig/nonneg/multiple_choice ---
+    24 rows -> age_10_qi22__ambig__nonneg__multiple_choice.csv in 1.0s
+[memory:after_age_10_qi22__ambig__nonneg__multiple_choice] free=58% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/ambig/nonneg/open_ended ---
+    24 rows -> age_10_qi22__ambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_10_qi22__ambig__nonneg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/disambig/neg/multiple_choice ---
+    24 rows -> age_10_qi22__disambig__neg__multiple_choice.csv in 1.0s
+[memory:after_age_10_qi22__disambig__neg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/disambig/neg/open_ended ---
+    24 rows -> age_10_qi22__disambig__neg__open_ended.csv in 1.0s
+[memory:after_age_10_qi22__disambig__neg__open_ended] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/disambig/nonneg/multiple_choice ---
+    24 rows -> age_10_qi22__disambig__nonneg__multiple_choice.csv in 0.9s
+[memory:after_age_10_qi22__disambig__nonneg__multiple_choice] free=60% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB
+--- age_10_qi22/disambig/nonneg/open_ended ---
+    24 rows -> age_10_qi22__disambig__nonneg__open_ended.csv in 0.9s
+[memory:after_age_10_qi22__disambig__nonneg__open_ended] free=61% swap=5030.06MB pressure_level=1 mps_alloc=1507.940352MB mps_driver=2367.373312MB

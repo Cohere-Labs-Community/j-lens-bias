@@ -1,0 +1,722 @@
+[
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_01_qi1",
+    "pair_id": "age_01_qi1__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_01_qi1__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_02_qi2",
+    "pair_id": "age_02_qi2__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_02_qi2__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_03_qi3",
+    "pair_id": "age_03_qi3__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_03_qi3__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_04_qi4",
+    "pair_id": "age_04_qi4__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_04_qi4__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_05_qi5",
+    "pair_id": "age_05_qi5__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_05_qi5__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_06_qi9",
+    "pair_id": "age_06_qi9__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_06_qi9__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_07_qi13",
+    "pair_id": "age_07_qi13__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_07_qi13__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_08_qi16",
+    "pair_id": "age_08_qi16__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_08_qi16__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_09_qi19",
+    "pair_id": "age_09_qi19__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_09_qi19__disambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__ambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__ambig__neg",
+    "context_condition": "ambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__ambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__ambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__ambig__nonneg",
+    "context_condition": "ambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__ambig__nonneg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__disambig__neg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__disambig__neg",
+    "context_condition": "disambig",
+    "question_polarity": "neg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__disambig__neg__open_ended.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "multiple_choice",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__disambig__nonneg__multiple_choice.csv"
+  },
+  {
+    "category": "Age",
+    "base_item_id": "age_10_qi22",
+    "pair_id": "age_10_qi22__disambig__nonneg",
+    "context_condition": "disambig",
+    "question_polarity": "nonneg",
+    "prompt_format": "open_ended",
+    "checkpoint_path": "/Users/vv/Desktop/JLens-project/j-lens-bias/Week 3/results/checkpoints/age_10_qi22__disambig__nonneg__open_ended.csv"
+  }
+]
