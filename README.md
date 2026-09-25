@@ -121,3 +121,22 @@ Riddle-structured items provide an additional behavioral signal.
 When later information contradicts an implicit stereotype, models may produce language associated with surprise or contradiction resolution.
 
 We test whether counter-stereotype swaps performed **before disambiguation** reduce this behavior relative to the unmodified model.
+
+---
+
+## Running the cataluna84 submissions on an RTX 2070
+
+The study-group notebooks for `cataluna84` use `Qwen/Qwen3.5-4B` and the released `n1000` lens (`neuronpedia/jacobian-lens`). This checkout runs in WSL2. GPU 0 is the RTX 2070 (8 GB, compute capability 7.5) and GPU 1 is a 4 GB GTX 1650 SUPER. CUDA comes from the Windows driver through `/usr/lib/wsl/lib`; do not install a Linux NVIDIA driver inside the distro. WSLg is already using about 1 GB of the 2070. bf16 weights are about 9 GB and Turing has no bf16 tensor cores, so the week 1 notebook, and the week 2 and week 3 collector scripts, load the 4B model on GPU 0 in int8 with fp16 for the unquantized weights. `torch.compile` stays off. GPU 1 is never used. The WSL VM has about 15 GB of RAM and no `.wslconfig`, which is enough for the int8 GPU path and tight for a CPU bf16 load.
+
+```bash
+uv sync
+uv run python -m ipykernel install --user --name j-lens-bias --display-name "J-Lens (RTX 2070)"
+git clone --depth 1 https://github.com/anthropics/jacobian-lens.git third_party/jacobian-lens
+ln -sfn ../../third_party/jacobian-lens/assets "Week 1/submissions/assets"
+ln -sfn ../../third_party/jacobian-lens/data "Week 1/submissions/data"
+git clone --depth 1 https://github.com/nyu-mll/BBQ.git /home/cataluna84/Workspace/BBQ
+```
+
+Select the **J-Lens (RTX 2070)** kernel. Week 1's walkthrough (`Week 1/submissions/cataluna84_week_1.ipynb`) loads the released lens and can apply it. The fitting cell stops immediately on this card: `fit()` needs tens of gigabytes of VRAM. Week 2's collector is `Week 2/submissions/cataluna84_week_2_bbq_stats.py` (`--int8` is the default). Its notebook reads the records that collector writes; those records are not in git. Point it at them with `BBQ_OUT` (the default path is `/home/cataluna84/Workspace/jacobian-lens/analysis/out/bbq`). Week 3's two notebooks run from the bundled `cataluna84_week_3_data` directory with no GPU. Re-collecting uses the `cataluna84_week_3_*.py` scripts in that same directory, again in int8 on GPU 0.
+
+On this card the int8 4B model occupies about 4.5 GiB, which fits in the memory WSLg leaves free. Qwen3.5's linear-attention layers use the pure PyTorch fallback (`causal_conv1d` and `flash-linear-attention` are not installed). That path is the one the lens apply calls run on, and it is slower than the fused kernels.

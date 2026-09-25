@@ -1,0 +1,32 @@
+[project]
+name = "j-lens-bias"
+version = "0.1.0"
+description = "Jacobian Lens bias submissions, set up to run on an 8 GB RTX 2070"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "accelerate",
+    "bitsandbytes",
+    "datasets",
+    "huggingface_hub",
+    "ipykernel",
+    "ipywidgets",
+    "jlens",
+    "jupyter",
+    "matplotlib",
+    "nbclient",
+    "numpy",
+    "pandas",
+    "scipy",
+    "torch==2.12.0",
+    "transformers>=5.5",
+]
+
+[project.urls]
+Repository = "https://github.com/Cohere-Labs-Community/j-lens-bias"
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+jlens = { git = "https://github.com/anthropics/jacobian-lens.git" }
