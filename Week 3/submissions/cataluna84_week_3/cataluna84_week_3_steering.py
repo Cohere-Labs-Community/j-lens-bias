@@ -126,13 +126,19 @@ VIGNETTES = [
 def load_all(args):
     print(f"loading {args.model} ...", flush=True)
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model)
+    # RTX 2070 (WSL2 GPU 0) is 8 GB Turing. int8 fits; fp16 is the dtype the
+    # card has tensor cores for. bf16 weights are ~9 GB and do not.
     if args.device == "cuda" and args.int8:
+        torch.cuda.set_device(0)
         bnb = transformers.BitsAndBytesConfig(
             load_in_8bit=True,
             llm_int8_skip_modules=["lm_head", "embed_tokens"],
         )
         hf_model = transformers.AutoModelForCausalLM.from_pretrained(
-            args.model, quantization_config=bnb, device_map={"": 0}
+            args.model,
+            quantization_config=bnb,
+            dtype=torch.float16,
+            device_map={"": 0},
         )
     else:
         hf_model = transformers.AutoModelForCausalLM.from_pretrained(
