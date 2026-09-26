@@ -1,0 +1,275 @@
+[
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Early",
+    "ablation_type": "None",
+    "P_she": 0.364,
+    "P_he": 0.0756
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Early",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.3671,
+    "P_he": 0.0762
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Early",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.3592,
+    "P_he": 0.0766
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Early",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.3796,
+    "P_he": 0.081
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Early",
+    "ablation_type": "Random_Control",
+    "P_she": 0.3595,
+    "P_he": 0.0752
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Mid",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.3576,
+    "P_he": 0.086
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Mid",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.3876,
+    "P_he": 0.0658
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Mid",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.3777,
+    "P_he": 0.0806
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Mid",
+    "ablation_type": "Random_Control",
+    "P_she": 0.3908,
+    "P_he": 0.0716
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Late",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.0,
+    "P_he": 0.0316
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Late",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.1422,
+    "P_he": 0.0
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Late",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.1549,
+    "P_he": 0.3385
+  },
+  {
+    "prompt_tier": "Turn1_Subtle",
+    "layer_band": "Late",
+    "ablation_type": "Random_Control",
+    "P_she": 0.3827,
+    "P_he": 0.0795
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Early",
+    "ablation_type": "None",
+    "P_she": 0.4158,
+    "P_he": 0.0527
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Early",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.4168,
+    "P_he": 0.0529
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Early",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.417,
+    "P_he": 0.0529
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Early",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.4407,
+    "P_he": 0.0549
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Early",
+    "ablation_type": "Random_Control",
+    "P_she": 0.4181,
+    "P_he": 0.0521
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Mid",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.4186,
+    "P_he": 0.0586
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Mid",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.4236,
+    "P_he": 0.0462
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Mid",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.4159,
+    "P_he": 0.0582
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Mid",
+    "ablation_type": "Random_Control",
+    "P_she": 0.4478,
+    "P_he": 0.0544
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Late",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.0,
+    "P_he": 0.015
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Late",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.2012,
+    "P_he": 0.0
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Late",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.1116,
+    "P_he": 0.4531
+  },
+  {
+    "prompt_tier": "Turn2_Pressure",
+    "layer_band": "Late",
+    "ablation_type": "Random_Control",
+    "P_she": 0.4436,
+    "P_he": 0.0553
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Early",
+    "ablation_type": "None",
+    "P_she": 0.4466,
+    "P_he": 0.0156
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Early",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.4448,
+    "P_he": 0.0155
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Early",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.4506,
+    "P_he": 0.0154
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Early",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.4449,
+    "P_he": 0.0155
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Early",
+    "ablation_type": "Random_Control",
+    "P_she": 0.4211,
+    "P_he": 0.0162
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Mid",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.4491,
+    "P_he": 0.0156
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Mid",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.4446,
+    "P_he": 0.0122
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Mid",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.4514,
+    "P_he": 0.0176
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Mid",
+    "ablation_type": "Random_Control",
+    "P_she": 0.4528,
+    "P_he": 0.0155
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Late",
+    "ablation_type": "Single_Token_She",
+    "P_she": 0.0,
+    "P_he": 0.001
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Late",
+    "ablation_type": "Single_Token_He",
+    "P_she": 0.1775,
+    "P_he": 0.0
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Late",
+    "ablation_type": "Subspace_Diff",
+    "P_she": 0.0797,
+    "P_he": 0.4881
+  },
+  {
+    "prompt_tier": "Turn3_Explicit",
+    "layer_band": "Late",
+    "ablation_type": "Random_Control",
+    "P_she": 0.4504,
+    "P_he": 0.0153
+  }
+]
